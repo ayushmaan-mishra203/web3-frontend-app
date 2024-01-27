@@ -1,10 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import MyFirstComponent from "./Components/MyFirstComponent";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello world</h1>
+    <div>
+      <MyFirstComponent></MyFirstComponent>
     </div>
   );
 }
